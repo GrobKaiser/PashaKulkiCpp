@@ -13,6 +13,7 @@ private:
 	void Initialize();
 public:
 	Board(int boardSize, int maxColors, int startCount, const PathFinder* pathFinder);
+	Board(const string& filename);
 	~Board();
 
 	int GetSize() const;
